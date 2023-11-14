@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://th.bing.com/th/id/OIG.3Shg8WAKjqFTq7Dxs4a_?pid=ImgGn&w=1024&h=1024&rs=1'); /* Caminho da sua imagem de fundo */
+  color: rgb(251, 255, 0)  ;
+}
+
+.container {
+  background-image: url('https://lh3.googleusercontent.com/pw/ADCreHdnAP9xnyO6KP06gT_kpkps6EDTcu8rZNBsjA2Ijmvhb6NqTd2oWAMTZcwQi7etQZMoDUmxAzHgks6z-tupWfeJcXHHHfvoaO9CJZBkhKSuwpoEbWRI0YiEewz_BBqw1WTk87TNa7QBX1LrCARQfckZZgl8Y2xD6H6Yn17-d087NX7j2A9klv5YQTfbzNJO0E--yZax1mbCCdG-3dMRDJUQw3ei1t20XqeaVQVLGvJMquaXTc55FQIX37ZAxb55zFpXtQEcX4mLgASsyfxipk1AKLJPaQVaO5-35Scyu8okIOkz2Hg7MSP-e40VBTPEWZ3_J2w5qCHFr1DZQw8q7kKyTJX15cmOZWM8NcHTUVHtQ4a1AgSexoUDDUSNL1yUqyqUrEqZz3kodHyqOQidwfKW7VH0LOWVC-7-ulpPYsOaSw-0Tlsn6N2l7y3011tOJ12tPaHGb4t7RtyVh32FqeG6CmSxmrqFnxARieCJ-bDF6gNnBXNUN1FPW8s0f66CcplM3SoqnHmPKKizimc0vFMYShrAH2phImcS4khME5n0EP29UemaKEM-iyNKgj6XO9yXZeVjtpnZCKDQVRpESqcN086iYLbTgdkz4cO8szrROTYsp3X_P02fWoO-jN409hWGpu4KBLyLRWjMPBu47QhrYcv9DJ8PlofBp-CsUjWpMEGqSqdYdKgM3KrL_rFi3TqrC_nzz8ubRPvENFnMWoQfoV8pkValLYCjAok7L58MBg_Nkequ8Uo6d9MBFHTjVlE6R58rC4do4f4jPYIrvC2IxLDZgjxwa_I6ooKAwa8oq5jAHVg9Sl6zMSxFXlu84KPVczRODj4MVVNBiEF8lvmcyI1548MSjXiBU0Cyvw9KmXdP97WEQils2NPPOiqYi1r91vSXcZjuahNsi-FRLxbLdQUuXD5aMA-iGiewj0y27fO6dLaH4-IYdaQ=w450-h250-s-no?authuser=1'); /* Caminho da sua imagem de fundo */
+  border-radius: 10px;
+  padding: 40px; /* Aumentar o padding para aumentar o tamanho do container */
+  text-align: center;
+  max-width:720px; /* Definir uma largura máxima para o container */
+  margin: 80 auto; /* Centralizar horizontalmente */
+}
+
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ADD8E6, #87CEFA);
+  flex: 1;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #00b4f0, #07598b);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to right, #87CEFA, #ADD8E6);
+}
